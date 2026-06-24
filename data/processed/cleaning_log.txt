@@ -1,0 +1,9 @@
+[nav_history] raw_rows=16542 -> clean_rows=15523 | unparseable_dates_dropped=0 | duplicates_removed=1019 | invalid_nav(<=0)_flagged_and_filled=46 | rows_dropped_unfillable=0
+[investor_transactions] raw_rows=15120 -> clean_rows=14932 | unmapped_transaction_type_dropped=0 | unmapped_kyc_dropped=0 | unparseable_dates_dropped=0 | invalid_amount(<=0)_dropped=69 | duplicate_txn_ids_removed=119
+[scheme_performance] returns_1y_pct: non_numeric_values_coerced_to_NaN=0
+[scheme_performance] returns_3y_pct: non_numeric_values_coerced_to_NaN=0
+[scheme_performance] returns_5y_pct: non_numeric_values_coerced_to_NaN=0
+[scheme_performance] rows dropped for missing/non-numeric returns: 16
+[scheme_performance] flagged return anomalies (kept, flagged): 0
+[scheme_performance] expense_ratio_pct out of valid range (0.1-2.5) flagged: 29
+[scheme_performance] raw_rows=758 -> clean_rows=734 | unparseable_dates_dropped=0 | duplicates_removed=8
